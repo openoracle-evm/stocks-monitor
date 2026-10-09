@@ -1,0 +1,14 @@
+{
+  "markets": [
+    { "symbol": "NVDA", "feedId": "0xb1073854ed24cbc755dc527418f52b7d271f6cc967bbf8d8129112b18860a593" },
+    { "symbol": "TSLA", "feedId": "0x16dad506d7db8da01c87581c87ca897a012a153557d4d578c3b9c9e1bc0632f1" },
+    { "symbol": "AAPL", "feedId": "0x49f6b65cb1de6b10eaf75e7c03ca029c306d0357e91b5311b175084a5ad55688" },
+    { "symbol": "MSFT", "feedId": "0xd0ca23c1cc005e004ccf1db5bf76aeb6a49218f43dac3d4b275e92de12ded4d1" },
+    { "symbol": "AMD", "feedId": "0x3622e381dbca2efd1859253763b1adc63f7f9abb8e76da1aa8e638a57ccde93e" },
+    { "symbol": "COIN", "feedId": "0xfee33f2a978bf32dd6b662b65ba8083c6773b494f8401194ec1870c640860245" }
+  ],
+  "_example_dex": {
+    "note": "Add a `dex` object to any market to compare against an on-chain Uniswap v3 pool of its tokenized version.",
+    "dex": { "pool": "0x0000000000000000000000000000000000000000", "stockIsToken0": true, "label": "xNVDA/USDC" }
+  }
+}
