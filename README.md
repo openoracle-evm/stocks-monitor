@@ -33,7 +33,7 @@ Without `PYTH_API_KEY` the service starts with simulated prices so you can try i
 ## API
 
 | Route | Description |
-|---|---|
+|---|---|---
 | `GET /health` | source (pyth/demo), poll count, last error |
 | `GET /markets` | latest snapshot of every market |
 | `GET /markets/:symbol` | snapshot + price history |
